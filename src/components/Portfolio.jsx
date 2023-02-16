@@ -26,8 +26,12 @@ const portfolios = [
     <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
     <img src={src} alt="" className='rounded-md duration-200 hover:scale-105' />
     <div className='flex items-center justify-center'>
-      <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110' >Demo</button>
-      <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110' >Code</button>
+      <button  className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110' >
+        <a href='https://binar-car-rental-customer.netlify.app' target="_blank" rel="noreferrer">Demo</a>
+        </button>
+      <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-110' >
+      <a href='https://github.com/ariqkharisma/challenge-binar-academy' target="_blank" rel="noreferrer">Code</a>
+      </button>
     </div>
   </div>
   ))
